@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 200px;
+}
+
+.button-group {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.enter-button {
+    padding: 10px 20px; /* Larger padding for Enter button */
+    font-size: 16px; /* Larger font size for Enter button */
+    background-color: #007bff; /* Blue color for Enter button */
+    color: #fff;
+}
+
+.enter-button:hover {
+    background-color: #0056b3;
+}
+
+.download-button {
+    padding: 3px 8px; /* Smaller padding for Download button */
+    font-size: 10px; /* Smaller font size for Download button */
+    background-color: #dc3545; /* Red color for Download button */
+    color: #fff;
+    opacity: 0.7; /* Less prominent appearance */
+    margin-top: 10px; /* Space above the Download button */
+}
+
+.download-button:hover {
+    background-color: #c82333;
+    opacity: 0.9; /* Slightly more prominent on hover */
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOLAR DATA ENTRY</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SOLAR DATA ENTRY</h1>
+        <input type="text" id="dataInput" placeholder="Type something..." onkeypress="handleKeyPress(event)">
+        <div class="button-group">
+            <button class="download-button" onclick="downloadFile()">Download Data</button>
+            <button class="enter-button" onclick="countInput()">Enter</button>
+        </div>
+        <p>Number of inputs: <span id="inputCount">0</span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
